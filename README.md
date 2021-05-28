@@ -1,5 +1,8 @@
 # Production
 www.sweet-and-social.netlify.app
+Test account:
+username: testuser1
+password: 123123
 
 # Getting Started with Create React App
 
