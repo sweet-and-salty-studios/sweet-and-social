@@ -22,8 +22,8 @@ export default function LoginForm() {
         headers: authObject,
       });
 
-      localStorage.setItem("username", 'sweet_and_social_' + username);
-      localStorage.setItem("password", 'sweet_and_social_' + password);
+      localStorage.setItem("sweet_and_social_username", username);
+      localStorage.setItem("sweet_and_social_password", password);
 
       window.location.reload();
       setError("");
@@ -35,7 +35,7 @@ export default function LoginForm() {
   return (
     <div className="wrapper">
       <div className="form">
-        <h1 className="title">Chat Application</h1>
+        <h1 className="title">Sweet & Social</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -55,7 +55,7 @@ export default function LoginForm() {
           />
           <div align="center">
             <button type="submit" className="button">
-              <span>Start chatting</span>
+              <span style={{ fontWeight: 'bold' }}>Login</span>
             </button>
           </div>
         </form>

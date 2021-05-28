@@ -10,7 +10,7 @@ export default function MessageForm(props)
   const { chatId, creds } = props;
 
   const handleChange = (event) => {
-    console.log('handleChange')
+    // console.log('handleChange')
     setValue(event.target.value);
 
     isTyping(props, chatId);
