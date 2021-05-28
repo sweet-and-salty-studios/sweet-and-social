@@ -1,5 +1,5 @@
 # Production
-www.sweet-and-social.netlify.app
+https://sweet-and-social.netlify.app
 Test account:
 username: testuser1
 password: 123123
